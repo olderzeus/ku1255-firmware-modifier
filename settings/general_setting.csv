@@ -69,15 +69,15 @@ ID,usage_name,Address
 43,F10,23
 44,F11,13
 45,F12,F3
-46,PrintScreen,34
-47,Scroll Lock,
+46,PrintScreen,E3
+47,Scroll Lock,E2
 48,Pause,05
-49,Insert,33
-4A,Home,11
-4B,PageUp,35
-4C,Delete Forward,31
+49,Insert,F1
+4A,Home,01
+4B,PageUp,31
+4C,Delete Forward,11
 4D,End,03
-4E,PageDown,36
+4E,PageDown,33
 4F,RightArrow,F6
 50,LeftArrow,06
 51,DownArrow,16
@@ -91,17 +91,17 @@ ID,usage_name,Address
 59,Keypad 1 and End,
 5A,Keypad 2 and Down Arrow,
 5B,Keypad 3 and PageDn,
-5C,Keypad 4 and Left Arrow,
+5C,Keypad 4 and Left Arrow,35
 5D,Keypad 5,
-5E,Keypad 6 and Right Arrow,
+5E,Keypad 6 and Right Arrow,36
 5F,Keypad 7 and Home,
 60,Keypad 8 and Up Arrow,
 61,Keypad 9 and PageUp,
 62,Keypad 0 and Insert,
 63,Keypad . and Delete,
 64,Non-US Slash Bar,80
-65,Application,
-66,Power,
+65,Application,34
+66,Power,F4
 67,Keypad =,
 68,F13,
 69,F14,
@@ -212,10 +212,10 @@ D1,Keypad Memory Recall,
 D2,Keypad Memory Clear,F2
 D3,Keypad Memory Add,
 D4,Keypad Memory Subtract,E1
-D5,Media 01,
-D6,Media 02,
-D7,Media 03,
-D8,Media 04,
+D5,Media 01,14
+D6,Media 02,17
+D7,Media 03,12
+D8,Media 04,15
 D9,Media 05,
 DA,Media 06,
 DB,Media 07,
@@ -230,7 +230,7 @@ E3,Left GUI,F7
 E4,RightControl,D5
 E5,RightShift,75
 E6,RightAlt,E6
-E7,Right GUI,
+E7,Right GUI,10
 E8,Macro 01,
 E9,Macro 02,
 EA,Macro 03,

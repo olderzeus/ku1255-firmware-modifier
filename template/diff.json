@@ -1826,19 +1826,19 @@
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_1/004a}     "
+      "code": "    DW           0x${s/km_1/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_e/0041}     "
+      "code": "    DW           0x${s/km_e/004d}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_f/00c8}     "
+      "code": "    DW           0x${s/km_f/00da}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_0/0059}     "
+      "code": "    DW           0x${s/km_0/007b}     "
     },
     {
       "op": "insert",
