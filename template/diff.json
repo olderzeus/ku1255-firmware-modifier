@@ -1786,15 +1786,15 @@
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_4/00bf}     "
+      "code": "    DW           0x${s/km_4/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_8/00bf}     "
+      "code": "    DW           0x${s/km_8/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_d/0022}     "
+      "code": "    DW           0x${s/km_d/00ff}     "
     },
     {
       "op": "insert",
@@ -1818,7 +1818,7 @@
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_7/00a0}     "
+      "code": "    DW           0x${s/km_7/00ff}     "
     },
     {
       "op": "insert",
@@ -1830,19 +1830,19 @@
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_e/004d}     "
+      "code": "    DW           0x${s/km_e/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_f/00da}     "
+      "code": "    DW           0x${s/km_f/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_0/007b}     "
+      "code": "    DW           0x${s/km_0/00ff}     "
     },
     {
       "op": "insert",
-      "code": "    DW           0x${s/km_3/007a}     "
+      "code": "    DW           0x${s/km_3/00ff}     "
     },
     {
       "op": "insert",
