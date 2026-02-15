@@ -614,15 +614,15 @@
 ; Reset bit-processing counter
 ; Resume normal key change processing
 
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
-;; <NOP> <- NOT USED ANYMORE
+; if Fnlock is on, skip
+; else set P5.0 low (led light ON)
+; if Fnlock is on, skip
+; else set P2.7 low (led light ON)
+; if Fnlock is off, skip
+; else set P5.0 hi (led light OFF)
+; if Fnlock is off, skip
+; else set P2.7 hi (led light OFF)
+; jump back interrupt
 ;; <NOP> <- NOT USED ANYMORE
 ;; <NOP> <- NOT USED ANYMORE
 ;; <NOP> <- NOT USED ANYMORE
@@ -3462,7 +3462,7 @@
 ;; Auto-scroll flag (Originally B0BSET)
 ;
 ;
-;
+; process FnLock Led
 
 ;
 ;
